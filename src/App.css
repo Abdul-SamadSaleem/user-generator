@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap");
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Covered By Your Grace", cursive;
+  box-shadow: 5px 5px 18px black;
+}
+
+.generateBtn {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: "Patrick Hand", cursive;
+  background: transparent;
+  border: 2px inset black;
+  transition: all 1000ms ease;
+  border-radius: 20px;
+}
+
+.generateBtn:hover {
+  color: white;
+  box-shadow: 5px 5px 8px black;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  font-family: "Patrick Hand", cursive;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px black;
+}
